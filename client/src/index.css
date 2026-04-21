@@ -24,6 +24,33 @@ h1 {
   font-size: 24px;
 }
 
+.search-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.search-bar input {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.search-bar .secondary-btn {
+  background: #4b5563;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
